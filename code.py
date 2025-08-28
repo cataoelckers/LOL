@@ -3,4 +3,28 @@ s1 = input()
 s2 = input()
 
 if s1==1:
-    pass
+    if s2==1:
+        print("Empate")
+    elif s2==2:
+        print("Gana piedra")
+    elif s2==3:
+        print("Gana tijera")
+    elif s2==4:
+        print("Gana tijera")
+    elif s2==5:
+        print("Gana spock")
+    else:
+        print("Número inválido")
+elif s1==2:
+    if s2==1:
+        print("Gana piedra")
+    elif s2==2:
+        print("Empate")
+    elif s2==3:
+        print("Gana papel")
+    elif s2==4:
+        print("Gana lagartija")
+    elif s2==5:
+        print("Gana spock")
+    else:
+        print("Número inválido")
