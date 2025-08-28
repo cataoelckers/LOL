@@ -42,3 +42,16 @@ elif s1==3:
     else:
         print("Número inválido")
 
+elif s1==4:
+    if s2==1:
+        print("Gana tijera")
+    elif s2==2:
+        print("Gana lagartija")
+    elif s2==3:
+        print("Gana lagartija")
+    elif s2==4:
+        print("Empate")
+    elif s2==5:
+        print("Gana spock")
+    else:
+        print("Número inválido")
